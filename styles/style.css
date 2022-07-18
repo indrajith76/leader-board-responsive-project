@@ -273,7 +273,8 @@ nav {
         margin-bottom: 20px;
     }
 
-    .thumbnail img{
+    .blog .thumbnail img{
+        height: auto;
         width: 100%;
     }
 
