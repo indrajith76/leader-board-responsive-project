@@ -258,6 +258,8 @@ nav {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
+
+    /* blogs */
     .top-blogs h2 {
         text-align: center;
     }
@@ -274,9 +276,15 @@ nav {
     .blog-info {
         margin: 0;
     }
+    /* course */
+    .section-title {
+        text-align: center;
+    }
 
     .courses{
-        display: none;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        justify-items: center;
     }
     
   }
