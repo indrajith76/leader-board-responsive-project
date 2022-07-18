@@ -326,7 +326,12 @@ nav {
         flex-direction: column;
     }
 
+    .blog .thumbnail img{
+        height: auto;
+        width: 100%;
+    }
 
+    /* courses style */
     .courses {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px;
