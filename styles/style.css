@@ -229,13 +229,20 @@ nav {
 
   /* Mobile Devices */
   @media only screen and (max-width:688px) {
+    
+    /* common style */
+    .container {
+        width: 80%;
+    }
+
+    /* top navber */
     header {
-        width: 100%;
         height: auto;
     }
 
     nav {
         flex-direction: column;
+        width: 100%;
     }
 
     .nav-items {
@@ -246,7 +253,13 @@ nav {
         margin: 0 0 5px 0;
     }
 
-    main {
+    /* top players  */
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .top-blogs, .courses{
         display: none;
     }
     
