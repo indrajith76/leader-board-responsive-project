@@ -10,6 +10,15 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #F3F1FF;
+    margin: 0;
+}
+
+header {
+    background: #562EFF;
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main {
@@ -31,6 +40,46 @@ hr {
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+/* ----------------------
+    top navber style 
+---------------------*/
+nav {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h3 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.logo img {
+    height: 51px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-right: 36px;
+}
+
 
 /* ----------------------
     top players style 
@@ -173,3 +222,17 @@ hr {
     padding: 5px;
     border-radius: 20px;
 }
+
+/*----------------
+    Media Queries
+  ---------------- */
+
+  /* Mobile Devices */
+  @media only screen and (max-width:688px) {
+    
+  }
+  
+  /* Tablet Devices */
+  @media only screen and (min-width: 689px) and (max-width: 992px) {
+    
+  }
