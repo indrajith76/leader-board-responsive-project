@@ -242,7 +242,7 @@ nav {
 
     nav {
         flex-direction: column;
-        width: 100%;
+        width: 10%;
     }
 
     .nav-items {
@@ -258,8 +258,24 @@ nav {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
+    .top-blogs h2 {
+        text-align: center;
+    }
 
-    .top-blogs, .courses{
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .blog-info {
+        margin: 0;
+    }
+
+    .courses{
         display: none;
     }
     
