@@ -229,6 +229,26 @@ nav {
 
   /* Mobile Devices */
   @media only screen and (max-width:688px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        padding: 0 0 10px 0;
+    }
+    .nav-items a {
+        margin: 0 0 5px 0;
+    }
+
+    main {
+        display: none;
+    }
     
   }
   
